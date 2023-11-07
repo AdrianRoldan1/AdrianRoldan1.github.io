@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <form>
+        <header>
+        <center>
+        <fieldset>
+            <legend>Datos de Empresa</legend>
+            <label><p>Nombre de Empresa: <input type="text" name="Empresa" size="12"></p></label>
+            <label><p>Distrito de la empresa: <input type="text" name="distrito" size="12"></p></label>
+            <label><p>Dirección de la empresa: <input type="text" name="dirección" size="12"></p></label>
+            <label><p>Correo de contacto: <input type="email" name="correo" size="12"></p></label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <label><p>Nombre y apellidos de persona de contacto: <input type="text" name="Nombre" size="12"></p></label>
+            <label><p>Número de teléfono de contacto: <input type="text" name="Teléfono" id="Teléfono" maxlength="9"></p></label>
+            <label><p>Dirección de correo: <input type="text" name="dirección" size="12"></p></label>
+        </fieldset>
+    </header>
+    <main>
+        <center>
+        <fieldset>
+            <legend>Puesto</legend>
+            <p>Sector del puesto: <select>
+                <option>Programador</option>
+                <option>Administrador de Redes</option>
+                <option>Administrador de Sistemas</option>
+                <option>Colsultor</option>
+                <option>Mantenimineto de Servidores</option>
+            </select></p>
+            <p>Posibilidad de teletrabajo:
+                <label><input type="radio" name="sn" value="si">Si</label>
+                <label><input type="radio" name="sn" value="no">No</label></p>
+                <p>Salario Aproximado: 12000€ <input type="range" name="salario" min="15000" max="75000" step="2500">75000€</p>
+                <p>Horario:
+                        <label><input type="radio" name="Hora" value="dia">Dia</label>
+                        <label><input type="radio" name="Hora" value="noche">Noche</label>
+                        <label><input type="radio" name="Hora" value="variado">Variado</p></label>
+                <p>Posibilidad de guardias: 
+                    <label><input type="radio" name="sn" value="si">Si</label>
+                    <label><input type="radio" name="sn" value="no">No</label></p>
+                <p>Posibilidad de viajes: 
+                <label><input type="radio" name="sn" value="si">Si</label>
+                <label><input type="radio" name="sn" value="no">No</label>
+                </p>
+                <p>Nivel de Inglés requerido: <select name="ingles">
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                    <option>C1</option>
+                    <option>C2</option>
+                </select></p>
+                <p>Fecha de inicio del puesto <input type="date" name="fecha"></p>
+        </fieldset>
+    </center>
+    </main>
+    <footer>
+
+    </footer>
+    </form>
+    
+</body>
+</html>
