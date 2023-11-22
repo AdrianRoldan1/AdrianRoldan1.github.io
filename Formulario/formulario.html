@@ -9,7 +9,11 @@
 <body>
     <form>
         <header>
+            <h1>Formulario de Contratación</h1>
+        </header>
+        <main>
         <center>
+            
         <fieldset>
             <legend>Datos de Empresa</legend>
             <label><p>Nombre de Empresa: <input type="text" name="Empresa" size="12"></p></label>
@@ -23,12 +27,11 @@
             <label><p>Número de teléfono de contacto: <input type="text" name="Teléfono" id="Teléfono" maxlength="9"></p></label>
             <label><p>Dirección de correo: <input type="text" name="dirección" size="12"></p></label>
         </fieldset>
-    </header>
-    <main>
-        <center>
+    
         <fieldset>
             <legend>Puesto</legend>
             <p>Sector del puesto: <select>
+                <option></option>
                 <option>Programador</option>
                 <option>Administrador de Redes</option>
                 <option>Administrador de Sistemas</option>
@@ -51,6 +54,7 @@
                 <label><input type="radio" name="sn" value="no">No</label>
                 </p>
                 <p>Nivel de Inglés requerido: <select name="ingles">
+                    <option></option>
                     <option>A1</option>
                     <option>A2</option>
                     <option>B1</option>
@@ -62,8 +66,16 @@
         </fieldset>
     </center>
     </main>
+    <br>
     <footer>
-
+        <center>
+        <button class="Borrar" type="reset">
+            Borrar
+          </button>
+          <button class="Enviar" type="submit">
+            Enviar
+          </button>
+        </center>
     </footer>
     </form>
     

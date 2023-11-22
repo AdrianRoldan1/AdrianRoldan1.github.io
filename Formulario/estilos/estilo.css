@@ -3,10 +3,15 @@
     src: url(../../Fuentes/PlayfairDisplay-Italic-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "Fuente";
+    src: url(../../Fuentes/Agbalumo-Regular.ttf);
+}
+
 html {
-    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.555),rgb(81, 78, 241));
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.555),rgb(81, 78, 241),rgba(255, 0, 0, 0.555));
     height: 100%;
+    
 }
 
 legend {
@@ -14,8 +19,43 @@ legend {
     font-weight: bold ;
     font-family: "Elegante";
     color: white;
+    border: 1px dotted rgb(80, 0, 255);
+    padding: 10px;
 }
 
 fieldset {
-    border: 1px rgb(0, 225, 255) solid;
+    border: 2px rgb(140, 0, 255) groove;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+p {
+    font-family: "Fuente";
+    font-size: 18px;
+    text-shadow: 4px 3px 2px plum;
+    padding: 3px;
+}
+
+footer {
+    text-align: center center;
+    padding: 8px;
+}
+
+header {
+    font-family: "Fuente";
+    text-align: center;
+    font-size: 32px;
+}
+
+.Borrar {
+    text-align: center;
+    background-color: rgb(248, 82, 82);
+    border: 1px solid rgb(248, 82, 82);
+}
+
+.Enviar {
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
 }
