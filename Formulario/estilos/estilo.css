@@ -23,6 +23,23 @@ h1 {
     padding: 5px;
 }
 
+nav {
+    position: static;
+    top: 0px;
+    z-index: 100;
+    border: double rgba(59, 5, 255, 0.74) 2px;
+    margin-left: 255px;
+    margin-right: 255px;
+    
+}
+
+nav>div{
+    text-align: center;
+    display: inline-block;
+     padding-left: 25px;
+     width: 20%;
+}
+
 legend {
     text-align: center center;
     font-weight: bold ;
@@ -33,10 +50,11 @@ legend {
 }
 
 fieldset {
-    border: 2px rgb(140, 0, 255) groove;
+    border: 3px rgb(140, 0, 255) groove;
     margin-left: 600px;
     margin-right: 600px;
     margin-top: 50px;
+    position: relative;
 }
 
 p {
@@ -47,8 +65,12 @@ p {
 }
 
 footer {
+    border: dotted purple 2px;
     text-align: center center;
-    padding: 8px;
+    padding: 20px;
+    margin-left: 45%;
+    margin-right: 45%;   
+    margin-bottom: 20%;
 }
 
 header {
@@ -69,7 +91,39 @@ header {
     border: 1px solid lightgreen;
 }
 
-div{
-    position: static;
+
+
+
+nav.lateral {
+    border: 2px solid rgba(59, 5, 255, 0.74);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.8em;
+    height: 40%;
+    position: absolute;
+    align-items: center;
+    top: 30%;
+    right: 8px;
+    width: 200px;
+    height: 100%;
 }
 
+div.box-right {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 50px;
+    width: 50px;
+    margin-top: 90px;
+    
+}
+
+ul {
+    list-style: none;
+    font: bold 100% monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: black;
+}
