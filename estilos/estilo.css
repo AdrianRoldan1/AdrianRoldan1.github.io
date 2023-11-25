@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Carta";
+    src: url(../Fuentes/Agbalumo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Elegante";
+    src: url(../Fuentes/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+html {
+    background: linear-gradient(to bottom,rgba(0, 174, 255, 0.555),rgb(241, 78, 241),rgba(0, 174, 255, 0.555));
+    height: 100%;   
+}
