@@ -11,7 +11,7 @@
 }
 
 html {
-    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.555),rgb(81, 78, 241),rgba(255, 0, 0, 0.555));
+    background: linear-gradient(to bottom,rgba(0, 4, 255, 0.555),rgb(78, 217, 241),rgba(0, 4, 255, 0.555));
     height: 100%;
     
 }
@@ -27,7 +27,7 @@ nav {
     position: static;
     top: 0px;
     z-index: 100;
-    border: double rgba(59, 5, 255, 0.74) 2px;
+    border: double rgba(5, 205, 255, 0.74) 2px;
     margin-left: 255px;
     margin-right: 255px;
     
@@ -95,7 +95,7 @@ header {
 
 
 nav.lateral {
-    border: 2px solid rgba(59, 5, 255, 0.74);
+    border: 2px solid rgba(5, 226, 255, 0.74);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 10px;
     font-size: 0.8em;
