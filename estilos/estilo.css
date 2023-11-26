@@ -8,8 +8,189 @@
     src: url(../Fuentes/PlayfairDisplay-Italic-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "gamer";
+    src: url(../Fuentes/PixelifySans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "music";
+    src: url(../Fuentes/Orbitron-Bold.ttf);
+}
+
+@font-face {
+    font-family: "legend";
+    src: url(../Fuentes/IndieFlower-Regular.ttf);
+}
+
 html {
-    background: linear-gradient(to bottom,rgba(0, 174, 255, 0.555),rgb(241, 78, 241),rgba(0, 174, 255, 0.555));
+    background: linear-gradient(to bottom,rgba(14, 0, 145, 0.555),rgb(241, 78, 241),rgba(14,0, 145, 0.555));
     height: 100%;   
+}
+
+header {
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px rgb(153, 0, 255) ridge;
+    position: static;
+    border-radius: 50px;
+    box-shadow: 5px 8px 5px purple;
+    display: block;
+}
+
+h1 {
+    font-family: "Elegante";
+    text-align: center;
+    text-shadow: 5px 8px 5px purple;
+    color: white;
+}
+
+nav {
+    display: block;
+    top: 0px;
+    z-index: 100;
+    border: double rgba(5, 205, 255, 0.74) 2px;
+    margin-left: 255px;
+    margin-right: 255px;
+    margin-top: 30px;
+    font: bold 100% arial black; 
+    border-radius: 50px;
+}
+
+nav>div{
+    text-align: center;
+    display: inline-block;
+     padding-left: 25px;
+     width: 20%;
+}
+
+section {
+    display: block;
+    border: 2px groove aquamarine;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+fieldset {
+    display: block;
+    margin-top: 20px;
+    border-radius: 80px;
+    border: none;
+    margin-right: 25%;
+    text-align: center;
+}
+
+legend {
+    display: block;
+    text-align: center;
+    border: solid 2px rgb(128, 240, 240);
+    border-radius: 20px;
+    font: bold 100% Arial;
+    padding: 10px;
+    font-family: "legend";
+    font-size: 3em;
+}
+
+div.características {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+    text-align: center;
+    padding: 5px;
+    font-family: "Carta";
+}
+
+.persistente {
+    border-radius: 50px;
+    border: 2px dotted rgb(251, 255, 0);
+    padding: 10px;
+}
+
+.motivador {
+    border-radius: 50px;
+    border: 2px dotted rgb(0, 255, 34);
+    padding: 10px;
+}
+
+.indepen {
+    border-radius: 50px;
+    border: 2px dotted rgb(25, 0, 255);
+    padding: 10px;
+}
+
+#pers {
+    color: rgb(255, 255, 255);
+    font-family: "Elegante";
+    text-shadow: 1px 4px 5px rgb(251, 255, 0);
+}
+
+#motiv {
+    color: rgb(255, 255, 255);
+    font-family: "Elegante";
+    text-shadow: 1px 4px 5px rgb(0, 255, 34);
+}
+
+#inde {
+    color: rgb(255, 255, 255);
+    font-family: "Elegante";
+    text-shadow: 1px 4px 5px rgb(25, 0, 255);
+}
+
+div.cosas {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.juegos {
+    border-radius: 50px;
+    border: 2px dotted rgb(255, 8, 0);
+    padding: 10px;
+    font: bold 100% arial;
+    margin: 15px;
+    font-family: "gamer";
+    font-size: 20px;
+}
+
+#games {
+    color: White;
+    font-family: "gamer";
+    text-shadow: 1px 4px 5px red;
+    font-size: 30px;
+}
+
+.musica {
+    border-radius: 50px;
+    border: 2px dotted rgb(251, 255, 0);
+    padding: 10px;
+    font: bold 100% arial;
+    font-family: "music";
+}
+
+#music {
+    color: white;
+    font-family: "music";
+    text-shadow: 1px 4px 5px gold;
+    font-size: 30px;
+}
+
+#Pokemon {
+    height: 200px;
+    width: 250px;
+    float: none;
+}
+
+#altavoz {
+    height: 200px;
+    width: 150px;
+    float: none;
 }
 

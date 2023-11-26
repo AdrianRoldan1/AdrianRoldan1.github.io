@@ -106,6 +106,7 @@ nav.lateral {
     right: 8px;
     width: 200px;
     height: 100%;
+    border-top-right-radius: 72px;
 }
 
 div.box-right {
