@@ -92,14 +92,8 @@ header {
     border: 1px solid lightgreen;
 }
 
-
-
-
 nav.lateral {
     border: 2px solid rgba(5, 226, 255, 0.74);
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 10px;
-    font-size: 0.8em;
     height: 40%;
     position: absolute;
     align-items: center;
@@ -107,7 +101,7 @@ nav.lateral {
     right: 8px;
     width: 200px;
     height: 100%;
-    border-top-right-radius: 72px;
+    border-radius: 72px;
 }
 
 div.box-right {
@@ -116,7 +110,6 @@ div.box-right {
     height: 50px;
     width: 50px;
     margin-top: 90px;
-    
 }
 
 ul {
@@ -128,4 +121,8 @@ ul {
 
 a:link, a:visited {
     color: black;
+}
+
+a:hover{
+    color: white;
 }

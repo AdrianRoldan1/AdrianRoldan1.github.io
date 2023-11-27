@@ -30,7 +30,7 @@
         <center>
             <div>
         <fieldset>
-            <legend>Datos de Empresa</legend>
+            <legend id="Empresa">Datos de Empresa</legend>
             <label><p>Nombre de Empresa: <input type="text" name="Empresa" size="12"></p></label>
             <label><p>Distrito de la empresa: <input type="text" name="distrito" size="12"></p></label>
             <label><p>Dirección de la empresa: <input type="text" name="dirección" size="12"></p></label>
@@ -39,7 +39,7 @@
     </div>
     <div class="contacto">
         <fieldset>
-            <legend>Datos de Contacto</legend>
+            <legend id="Contacto">Datos de Contacto</legend>
             <label><p>Nombre y apellidos de persona de contacto: <input type="text" name="Nombre" size="12"></p></label>
             <label><p>Número de teléfono de contacto: <input type="text" name="Teléfono" id="Teléfono" maxlength="9"></p></label>
             <label><p>Dirección de correo: <input type="text" name="dirección" size="12"></p></label>
@@ -47,7 +47,7 @@
     </div>
     <div>
         <fieldset>
-            <legend>Puesto</legend>
+            <legend id="Puesto">Puesto</legend>
             <p>Sector del puesto: <select>
                 <option></option>
                 <option>Programador</option>
@@ -89,16 +89,13 @@
         <div class="box-right">
             <ul>
                 <div class="box-right">
-                <li>Página de Inicio</li>
+                <li><a href="#Empresa">Datos de Empresa</a></li>
             </div>
                 <div class="box-right">
-                <li>CV</li>
+                <li><a href="#Contacto">Datos de Contacto</a></li>
             </div>
                 <div class="box-right">
-                <li>Formulario</li>
-            </div>
-                <div class="box-right">
-                <li>Sobre el proyecto</li>
+                <li><a href="#Puesto">Puesto</a></li>
             </div>
             </ul>
         </div>
