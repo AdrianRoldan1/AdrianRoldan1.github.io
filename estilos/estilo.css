@@ -115,13 +115,13 @@ div.características {
 
 .persistente {
     border-radius: 50px;
-    border: 2px dotted rgb(251, 255, 0);
+    border: 2px dotted rgb(111, 0, 255);
     padding: 10px;
 }
 
 .motivador {
     border-radius: 50px;
-    border: 2px dotted rgb(0, 255, 34);
+    border: 2px dotted rgb(255, 115, 0);
     padding: 10px;
 }
 
@@ -134,13 +134,13 @@ div.características {
 #pers {
     color: rgb(255, 255, 255);
     font-family: "Elegante";
-    text-shadow: 1px 4px 5px rgb(251, 255, 0);
+    text-shadow: 1px 4px 5px rgb(111, 0, 255);
 }
 
 #motiv {
     color: rgb(255, 255, 255);
     font-family: "Elegante";
-    text-shadow: 1px 4px 5px rgb(0, 255, 34);
+    text-shadow: 1px 4px 5px rgb(255, 115, 0);
 }
 
 #inde {
@@ -255,6 +255,7 @@ h3 {
     height: 200px;
     width: 300px;
     float: none;
+    border-radius: 50px;
 }
 
 a:link, a:visited {
@@ -262,11 +263,11 @@ a:link, a:visited {
 }
 
 footer {
-    border: none;
-    column-count: 3;
-    font: bolder 100% arial;
-    margin-top: 10px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+    text-align: center;
+    padding: 5px;
+    font-family: "Carta";
 }
 
 a:hover{
