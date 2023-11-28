@@ -94,8 +94,13 @@ fieldset {
     text-align: center;
 }
 
+.class1{
+    position: relative;
+    margin-left: 24%;
+}
+
 legend {
-    display: block;
+    position: relative;
     text-align: center;
     border: solid 2px rgb(128, 240, 240);
     border-radius: 20px;
@@ -103,7 +108,10 @@ legend {
     padding: 10px;
     font-family: "legend";
     font-size: 3em;
+    margin-left: 38%;
 }
+
+
 
 div.características {
     display: grid;
@@ -273,3 +281,4 @@ footer {
 a:hover{
     color: white;
 }
+
