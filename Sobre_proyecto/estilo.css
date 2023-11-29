@@ -73,3 +73,20 @@ nav>div{
      padding-left: 25px;
      width: 20%;
 }
+
+main {
+    margin-top: 55px;
+    margin-left: 150px;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td.header {
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+    font: bolder 100% arial;
+    background-color: rgb(114, 2, 2);
+}

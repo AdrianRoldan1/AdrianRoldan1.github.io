@@ -7,6 +7,7 @@
     font-family: "Elegante";
     src: url(../Fuentes/PlayfairDisplay-Italic-VariableFont_wght.ttf);
 }
+
 html {
     background: linear-gradient(to bottom,rgba(14, 0, 145, 0.555),rgb(241, 78, 241),rgba(14,0, 145, 0.555));
     height: 100%;   
@@ -46,14 +47,14 @@ nav {
     font-family: "Elegante";
 }
 
-nav>div{
+nav>div {
     text-align: center;
     display: inline-block;
      padding-left: 25px;
      width: 20%;
 }
 
-img{
+img {
     height: 200px;
     width: 200px;
 }
@@ -65,7 +66,7 @@ table {
     text-align: center;
 }
 
-td{
+td {
     border: 1px solid black;
     height: 200px;
     width: 200px;
@@ -89,6 +90,18 @@ td{
     width: 300px;
  }
 
+ #phone {
+    list-style-image: url(../Img/)
+ }
+
+#mail {
+    list-style-image: url(../Img/)
+}
+
+#ubicacion {
+    list-style-image: url(../Img/)
+}
+
 .Cabeza{
     padding: 5px;
 }
@@ -104,13 +117,28 @@ td{
     border-top: 1px solid black;
 }
 
-.habilidades {
+.aptitudes {
     width: 800px;
     border: none;
     padding-left: 30px;
     border-top: 1px solid black;
 }
 
+.Idiomas{
+    width: 800px;
+    border: none;
+    padding-left: 30px;
+    border-top: 1px solid black;
+    font-size: px;
+}
+
+.habilidades {
+    width: 800px;
+    border: none;
+    padding-left: 30px;
+    border-top: 1px solid black;
+    font-size: px;
+}
 
  nav.lateral {
     border: 2px solid rgba(5, 226, 255, 0.74);
@@ -143,3 +171,20 @@ li.lista {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+    text-align: center;
+    padding: 5px;
+    font-family: "Carta";
+}
+
