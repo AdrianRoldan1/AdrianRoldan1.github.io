@@ -35,7 +35,7 @@
         <fieldset class="Cuadro">
             <legend id="Empresa">Datos de Empresa</legend>
             <label>Nombre de Empresa: <input type="text" name="Empresa" size="12"></label><br><br>
-            <label>Distrito de la empresa: <input type="text" name="distrito" size="12"></label><br><br>
+            <label>Distrito de la empresa: <input type="text" name="distrito" size="12" placeholder="Ej: Tetuan"></label><br><br>
             <label>Dirección de la empresa: <input type="text" name="dirección" size="12"></label><br><br>
             <label>Correo de contacto: <input type="email" name="correo" size="12"></label><br><br>
         </fieldset>
@@ -43,6 +43,8 @@
     <div class="contacto">
         <fieldset class="Cuadro">
             <legend id="Contacto">Datos de Contacto</legend>
+            <label>Usuario: <input type="text" name="Usuario" id="Usuario"></label><br><br>
+            <label>Contraseña: <input type="password" name="pass" id="pass"></label><br><br>
             <label>Nombre y apellidos de persona de contacto: <input type="text" name="Nombre" size="12"></label><br><br>
             <label>Número de teléfono de contacto: <input type="text" name="Teléfono" id="Teléfono" maxlength="9"></label><br><br>
             <label>Dirección de correo: <input type="text" name="dirección" size="12"></label><br><br>
@@ -58,11 +60,22 @@
                 <option>Administrador de Sistemas</option>
                 <option>Colsultor</option>
                 <option>Mantenimineto de Servidores</option>
-            </select>
+                </select><br><br>
+            Número de Compañeros: <input type="number" name="number" id="number">
             <p>Posibilidad de teletrabajo:
                 <label><input type="radio" name="sn" value="si">Si</label>
                 <label><input type="radio" name="sn" value="no">No</label></p>
-                <p>Salario Aproximado: 12000€ <input type="range" name="salario" min="15000" max="75000" step="2500">75000€</p>
+                <p>Salario Aproximado: 12000€ <input type="range" name="salario" min="15000" max="65000" list="rango" step="5000">
+                    <datalist id="rango"> <option value="15000"></option>
+                    <option value="20000"></option>
+                    <option value="25000"></option>
+                    <option value="30000"></option>
+                    <option value="35000"></option>
+                    <option value="40000"></option>
+                    <option value="45000"></option>
+                    <option value="50000"></option>
+                    <option value="55000"></option>
+                    <option value="60000"></option></datalist>60000€</p>
                 <p>Horario:
                         <label><input type="radio" name="Hora" value="dia">Dia</label>
                         <label><input type="radio" name="Hora" value="noche">Noche</label>
@@ -74,7 +87,7 @@
                 <label><input type="radio" name="sn" value="si">Si</label>
                 <label><input type="radio" name="sn" value="no">No</label>
                 </p>
-                <p>Nivel de Inglés requerido: <select name="ingles">
+                Nivel de Inglés requerido: <select name="ingles">
                     <option></option>
                     <option>A1</option>
                     <option>A2</option>
@@ -82,8 +95,14 @@
                     <option>B2</option>
                     <option>C1</option>
                     <option>C2</option>
-                </select></p>
+                </select><br><br>
+                Otros idomas que puedan servir: <label><input type="checkbox" name="frances" id="Frances">Frances </label>
+                    <label><input type="checkbox" name="aleman" id="aleman">Alemán</label>
+                    <label><input type="checkbox" name="Chino" id="chino">Chino</label>
+                    <label><input type="checkbox" name="Ruso" id="Ruso">Ruso </label>
                 <p>Fecha de inicio del puesto <input type="date" name="fecha"></p>
+                Color del Uniforme: <input type="color" name="color" id="color"><br><br>
+                <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Sugerencias sobre el puesto"></textarea>
         </fieldset>
     </div>
 
