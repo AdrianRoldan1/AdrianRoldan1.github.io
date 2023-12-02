@@ -61,7 +61,7 @@ li.nave {
 }
 
 legend {
-    text-align: center center;
+    text-align: center;
     font-weight: bold ;
     font-family: "Elegante";
     color: white;
@@ -75,6 +75,14 @@ fieldset {
     margin-right: 600px;
     margin-top: 50px;
     position: relative;
+    text-align: center;
+}
+
+.Cuadro {
+    font-family: "Fuente";
+    padding-top: 5px;
+    text-shadow: 4px 3px 2px plum;
+    font-size: large;
 }
 
 p {
@@ -139,6 +147,7 @@ a:hover{
 
 .botones {
     border: none;
+    text-align: center;
 }
 
 footer {

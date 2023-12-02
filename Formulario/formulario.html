@@ -15,49 +15,50 @@
         <nav>
             <div>
                 <ul>
-                <li class="nave"><a href="../index.html">Página Inicio</a></li>
+                <li class="nave"><a href="../index.html">Página Inicio</a></li></ul>
                 </div>
                 <div>
-                <li class="nave"><a href="../CV/CV.html">CV</a></li>
+                    <ul>
+                <li class="nave"><a href="../CV/CV.html">CV</a></li></ul>
             </div>
             <div>
-                <li class="nave"><a href="formulario.html">Formulario</a></li>
+                <ul>
+                <li class="nave"><a href="formulario.html">Formulario</a></li></ul>
             </div>
             <div>
-                <li class="nave"><a href="../Sobre_proyecto/sobre_video.html">Sobre el proyecto</a></li>
+                <ul>
+                <li class="nave"><a href="../Sobre_proyecto/sobre_video.html">Sobre el proyecto</a></li></ul>
             </div>
-        </ul>
         </nav>
         <main>
-        <center>
             <div>
-        <fieldset>
+        <fieldset class="Cuadro">
             <legend id="Empresa">Datos de Empresa</legend>
-            <label><p>Nombre de Empresa: <input type="text" name="Empresa" size="12"></p></label>
-            <label><p>Distrito de la empresa: <input type="text" name="distrito" size="12"></p></label>
-            <label><p>Dirección de la empresa: <input type="text" name="dirección" size="12"></p></label>
-            <label><p>Correo de contacto: <input type="email" name="correo" size="12"></p></label>
+            <label>Nombre de Empresa: <input type="text" name="Empresa" size="12"></label><br><br>
+            <label>Distrito de la empresa: <input type="text" name="distrito" size="12"></label><br><br>
+            <label>Dirección de la empresa: <input type="text" name="dirección" size="12"></label><br><br>
+            <label>Correo de contacto: <input type="email" name="correo" size="12"></label><br><br>
         </fieldset>
     </div>
     <div class="contacto">
-        <fieldset>
+        <fieldset class="Cuadro">
             <legend id="Contacto">Datos de Contacto</legend>
-            <label><p>Nombre y apellidos de persona de contacto: <input type="text" name="Nombre" size="12"></p></label>
-            <label><p>Número de teléfono de contacto: <input type="text" name="Teléfono" id="Teléfono" maxlength="9"></p></label>
-            <label><p>Dirección de correo: <input type="text" name="dirección" size="12"></p></label>
+            <label>Nombre y apellidos de persona de contacto: <input type="text" name="Nombre" size="12"></label><br><br>
+            <label>Número de teléfono de contacto: <input type="text" name="Teléfono" id="Teléfono" maxlength="9"></label><br><br>
+            <label>Dirección de correo: <input type="text" name="dirección" size="12"></label><br><br>
         </fieldset>
     </div>
     <div>
-        <fieldset>
+        <fieldset class="Cuadro">
             <legend id="Puesto">Puesto</legend>
-            <p>Sector del puesto: <select>
+                Sector del puesto: <select>
                 <option></option>
                 <option>Programador</option>
                 <option>Administrador de Redes</option>
                 <option>Administrador de Sistemas</option>
                 <option>Colsultor</option>
                 <option>Mantenimineto de Servidores</option>
-            </select></p>
+            </select>
             <p>Posibilidad de teletrabajo:
                 <label><input type="radio" name="sn" value="si">Si</label>
                 <label><input type="radio" name="sn" value="no">No</label></p>
@@ -65,7 +66,7 @@
                 <p>Horario:
                         <label><input type="radio" name="Hora" value="dia">Dia</label>
                         <label><input type="radio" name="Hora" value="noche">Noche</label>
-                        <label><input type="radio" name="Hora" value="variado">Variado</p></label>
+                        <label><input type="radio" name="Hora" value="variado">Variado</p>
                 <p>Posibilidad de guardias: 
                     <label><input type="radio" name="sn" value="si">Si</label>
                     <label><input type="radio" name="sn" value="no">No</label></p>
@@ -85,33 +86,29 @@
                 <p>Fecha de inicio del puesto <input type="date" name="fecha"></p>
         </fieldset>
     </div>
-    </center>
+
     </main>
     <nav class="lateral">
         <div class="box-right">
-            <ul>
-                <div class="box-right">
-                <li><a href="#Empresa">Datos de Empresa</a></li>
+                <div class="box-right"> <ul>
+                <li><a href="#Empresa">Datos de Empresa</a></li></ul>
             </div>
-                <div class="box-right">
-                <li><a href="#Contacto">Datos de Contacto</a></li>
+                <div class="box-right"><ul>
+                <li><a href="#Contacto">Datos de Contacto</a></li></ul>
             </div>
-                <div class="box-right">
-                <li><a href="#Puesto">Puesto</a></li>
+                <div class="box-right"><ul>
+                <li><a href="#Puesto">Puesto</a></li></ul>
             </div>
-            </ul>
         </div>
     </nav>
     <br>
     <section class="botones">
-        <center>
         <button class="Borrar" type="reset">
             Borrar
           </button>
           <button class="Enviar" type="submit">
             Enviar
           </button>
-        </center>
     </section>
     <footer>
         <p>Adrián Roldán Pérez</p>
