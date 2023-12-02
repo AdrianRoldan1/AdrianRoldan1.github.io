@@ -74,6 +74,11 @@ nav>div{
      width: 20%;
 }
 
+li.nave {
+    list-style: none;
+    font-family: "Elegante";
+}
+
 section {
     display: block;
     border: 2px groove aquamarine;
@@ -96,7 +101,6 @@ fieldset {
 
 .class1{
     position: relative;
-    margin-left: 24%;
 }
 
 legend {
@@ -108,7 +112,6 @@ legend {
     padding: 10px;
     font-family: "legend";
     font-size: 3em;
-    margin-left: 38%;
 }
 
 div.características {
