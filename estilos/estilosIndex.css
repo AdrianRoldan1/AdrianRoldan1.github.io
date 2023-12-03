@@ -52,6 +52,7 @@ h1 {
     text-align: center;
     text-shadow: 5px 8px 5px purple;
     color: white;
+    letter-spacing: 5px;
 }
 
 nav {

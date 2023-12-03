@@ -6,12 +6,13 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="estilosFormulario.css">
 </head>
-
 <body>
     <form>
+    <!--Encabezado-->
         <header>
             <h1>Formulario de Contratación</h1>
         </header>
+        <!--Menu Navegación Supeior-->
         <nav>
             <div>
                 <ul>
@@ -30,6 +31,7 @@
                 <li class="nave"><a href="../Sobre_proyecto/sobre_video.html">Sobre el proyecto</a></li></ul>
             </div>
         </nav>
+        <!--Contenido del Main-->
         <main>
             <div>
         <fieldset class="Cuadro">
@@ -54,7 +56,7 @@
         <fieldset class="Cuadro">
             <legend id="Puesto">Puesto</legend>
                 Sector del puesto: <select>
-                <option></option>
+                <option>.......</option>
                 <option>Programador</option>
                 <option>Administrador de Redes</option>
                 <option>Administrador de Sistemas</option>
@@ -79,7 +81,7 @@
                 <p>Horario:
                         <label><input type="radio" name="Hora" value="dia">Dia</label>
                         <label><input type="radio" name="Hora" value="noche">Noche</label>
-                        <label><input type="radio" name="Hora" value="variado">Variado</p>
+                        <label><input type="radio" name="Hora" value="variado">Variado</label></p>
                 <p>Posibilidad de guardias: 
                     <label><input type="radio" name="sn" value="si">Si</label>
                     <label><input type="radio" name="sn" value="no">No</label></p>
@@ -88,7 +90,7 @@
                 <label><input type="radio" name="sn" value="no">No</label>
                 </p>
                 Nivel de Inglés requerido: <select name="ingles">
-                    <option></option>
+                    <option>.....</option>
                     <option>A1</option>
                     <option>A2</option>
                     <option>B1</option>
@@ -105,8 +107,8 @@
                 <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Sugerencias sobre el puesto"></textarea>
         </fieldset>
     </div>
-
     </main>
+    <!--Menu Navegación Lateral-->
     <nav class="lateral">
         <div class="box-right">
                 <div class="box-right"> <ul>
@@ -129,6 +131,8 @@
             Enviar
           </button>
     </section>
+
+    <!--Footer-->
     <footer>
         <p>Adrián Roldán Pérez</p>
         <p>Aplicaicones Web</p>

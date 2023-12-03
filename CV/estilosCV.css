@@ -33,6 +33,7 @@ h1 {
     text-shadow: 5px 8px 5px purple;
     color: white;
     font-size: 32px;
+    letter-spacing: 5px;
 }
 
 nav {

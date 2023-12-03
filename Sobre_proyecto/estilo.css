@@ -52,6 +52,7 @@ h1 {
     text-align: center;
     text-shadow: 5px 8px 5px purple;
     color: white;
+    letter-spacing: 5px;
 }
 
 nav {
@@ -93,6 +94,7 @@ div.proyecto {
 h3 {
     font-family: "music";
     font-size: 28px;
+    text-decoration: underline;
 }
 
 #maquetacion {
